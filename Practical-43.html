@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Layout Using Flexbox</title>
+    <link rel="icon"
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsTsk1zEIUtneWVcQRla_Q8eOx5qN43dGBwQ&usqp=CAU">
+
+    <style>
+        @media only screen and (max-width: 1300px) {
+            .media {
+                flex-direction: column !important;
+            }
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+
+<body
+    style="display: flex; flex-direction: column; align-items: center; background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20190222/ourmid/pngtree-classical-gouache-watercolor-background-jetwatercoloradvertising-background-image_57401.jpg); background-size: cover; padding: 50px;">
+    <h1>PHOTOGRAPHER</h1>
+
+    <h1 style="font-size: 300%; margin-top: 30px;"><b>Tanvi Patel</b></h1>
+
+    <div class="btn-group mt-5">
+        <button type="button" class="btn btn-light"
+            style="border: 1px black solid; background-color: transparent;">Home</button>
+        <button type="button" class="btn btn-light"
+            style="border: 1px black solid; background-color: transparent;">Portfolio</button>
+        <button type="button" class="btn btn-light"
+            style="border: 1px black solid; background-color: transparent;">Contact</button>
+        <button type="button" class="btn btn-light"
+            style="border: 1px black solid; background-color: transparent;">Weddings</button>
+    </div>
+
+    <div class="media" style="display: flex; gap: 10px; margin-top: 5%;">
+
+        <div style="display: flex; flex-direction: column; gap: 10px;">
+
+            <img src="https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=170667a&w=0&k=20&c=vKqLcyX0Qlrh8A351AA3-h2s5P46CZjh8JR6_QyV-D4="
+                style="height: 400px; width: 600px;">
+            <img src="https://w.forfun.com/fetch/8c/8c1bda3637d8f634298ad500ae760cbb.jpeg"
+                style="height: 1000px; width: 600px;">
+            <img src="https://www.travelandleisure.com/thmb/KLPvXakEKLGE5AY2jVyovl3Md1k=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/iceland-BEAUTCONT1021-b1aeafa7ac2847a484cbca48d3172b6c.jpg"
+                style="height: 400px; width: 600px;">
+            <img src="https://th-thumbnailer.cdn-si-edu.com/XJFrDNlNhvtv1uH-U6FKdBJ_U2U=/1000x750/filters:no_upscale()/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/04/8e/048ed839-a581-48af-a0ae-fac6fec00948/gettyimages-168346757_web.jpg"
+                style="height: 800px; width: 600px;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSYPY-zRXfC7fNCim5RY4SYqHXeI6UqVgtsyO9EYapOaMOzu5xABIGkGWH3H3sz865YiY&usqp=CAU"
+                style="height: 400px; width: 600px;">
+            <img src="https://likehindi.com/wp-content/uploads/2023/04/nature-images-for-dp.jpg"
+                style="height: 800px; width: 600px;">
+
+        </div>
+
+        <div style="display: flex; flex-direction: column; gap: 10px;">
+
+            <img src="https://png.pngtree.com/background/20210715/original/pngtree-beautiful-natural-beauty-of-railroad-tracks-in-autumn-picture-image_1272142.jpg"
+                style="height: 800px; width: 600px;">
+            <img src="https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_640.jpg"
+                style="width: 600px; height: 400px;">
+            <img src="https://media.istockphoto.com/id/1243729056/photo/free-gray-squirrel-in-a-city-park.jpg?s=612x612&w=0&k=20&c=6M5H3S-sgqe8uiqj5GEqVT-JPI-aOUI8-u1SlE1CHRs="
+                style="width: 600px; height: 400px;">
+            <img src="https://bpac.in/wp-content/uploads/2021/08/BlogsArtboard-1-copy-9.jpg"
+                style="height: 300px; width: 600px;">
+            <img src="https://2.bp.blogspot.com/-VlGxHtGVyQc/TqKvDwhqaCI/AAAAAAAAFpI/nJ6sz5f5YG8/s1600/snow-lake.jpg"
+                style="width: 600px; height: 400px;">
+            <img src="https://good-nature-blog-uploads.s3.amazonaws.com/uploads/2022/01/good-nature-homepage-hero_2-scaled.jpg"
+                style="width: 600px; height: 600px;">
+            <img src="https://d1whtlypfis84e.cloudfront.net/guides/wp-content/uploads/2019/07/23090714/nature-1024x682.jpeg"
+                style="height: 400px; width: 600px;">
+            <img src="https://mymodernmet.com/wp/wp-content/uploads/2021/04/Nature-Sounds-For-Well-Being-03.jpg"
+                style="height: 500px; width: 600px;">
+        </div>
+
+    </div>
+
+    <div
+        style="background-color: rgb(250, 230, 233); height: 200px; width: 105%; margin-top: 5%; display: flex; flex-direction: column; justify-content: center;">
+
+        <div style="display: flex; justify-content: center; align-items: center;">
+
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEKpVYojTG98ffHOrh_E1G0-u2EkfVVCHmhQ&usqp=CAU"
+                style="height: 30px; width: 30px; border-radius: 10px;">
+            <img src="https://w7.pngwing.com/pngs/31/164/png-transparent-instagram-vector-brand-logos-icon.png"
+                style="height: 35px; width: 35px; border-radius: 10px;">
+            <img src="https://www.citypng.com/public/uploads/preview/-11600705593z1cnhlumpc.png"
+                style="height: 30px; width: 30px; border-radius: 10px;">
+            <img src="https://www.shareicon.net/data/2016/11/14/851975_p-pinterest_512x512.png"
+                style="height: 30px; width: 30px; border-radius: 10px;">
+            <img src="https://cdn-icons-png.flaticon.com/512/733/733635.png"
+                style="height: 30px; width: 30px; border-radius: 10px;">
+            <img src="https://w7.pngwing.com/pngs/277/988/png-transparent-social-media-computer-icons-linkedin-black-angle-text-logo.png"
+                style="height: 30px; width: 30px; border-radius: 10px;">
+
+        </div>
+
+        <div style="display: flex; justify-content: center; align-items: center; margin-top: 1%;">
+            <p style="font-size: 130%;">Powered by<a href="https://www.w3schools.com/w3css/default.asp"
+                    style="color: black;">W3.CSS</a></p>
+        </div>
+
+
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

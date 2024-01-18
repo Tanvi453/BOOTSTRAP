@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        .h6 {
+            margin-top: 13%;
+        }
+
+        .p {
+            margin-top: -3%;
+        }
+
+        .a {
+            color: red;
+            margin-left: 50%;
+        }
+
+        .view {
+            margin-top: 5px;
+        }
+
+        .house {
+            height: 200px;
+            width: 450px;
+            border-radius: 20px;
+        }
+
+        .image-1 {
+            height: 20px;
+            width: 20px;
+            margin-top: 15px;
+            border-radius: 5px;
+        }
+
+        #app {
+            background-color: white;
+            gap: 10px;
+            width: 150px;
+            border-radius: 10px;
+            height: 45px;
+            margin-top: 2px;
+        }
+
+        .mp {
+            margin-top: 10px;
+        }
+    </style>
+
+    <title>Prectical-19</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="icon"
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB6wdOANhjTxESr3dcf6KbGKh9a6UZydlStQ&usqp=CAU">
+</head>
+
+<body style="background-color: whitesmoke;">
+
+    <div class="p-4">
+        <div class="row d-flex justify-content-between">
+
+            <div class="col-6 d-flex" style="gap: 20px;">
+
+                <div class="image" style="margin-top: 1%;">
+                    <img src="https://media.istockphoto.com/id/1067090106/photo/confident-cheerful-male-lawyer-reads-business-news-has-gentle-smile-dressed-in-formal-clothes.jpg?s=612x612&w=0&k=20&c=ftH5sG5_fdQ-LENQN5YqPG6raqdSRKBNsfRpnuve7qs="
+                        style="height: 80px; width: 80px; border-radius: 20px; ">
+                </div>
+
+                <div style="margin-top: 3%;">
+                    <h5>Richard Davis</h5>
+                    <h6 style="margin-top: -4%;">CEO / Co-Founder</h6>
+                </div>
+            </div>
+
+            <div class="col-6 mt-3">
+                <div
+                    style="background-color: rgb(235, 233, 233); display: flex; justify-content:space-around; gap: 50px; width: 65%; border-radius: 15px; margin-left: 35%;">
+
+                    <div id="app"
+                        style=" display: flex; flex-direction: row; align-items: center; justify-content: center;">
+                        <img src="https://www.clipartmax.com/png/middle/4-41237_free-icons-png-new-home-icon.png"
+                            style="height: 20px; width: 30px;">
+                        <p style="margin-top: 10px;">App</p>
+                    </div>
+                    <div class="d-flex" style="gap: 10px;">
+                        <img class="image-1"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSTdcTRt_8gEpNQPmvtjMuAcnulqPC7MktToohFIDVCCIxXw4K72yDDIuD4ZE9IELjAYA&usqp=CAU">
+                        <p class="mp">Mesaages</p>
+                    </div>
+                    <div class="d-flex" style="gap: 10px; margin-right: 15px;">
+                        <img class="image-1"
+                            src="https://upload.wikimedia.org/wikipedia/commons/d/dc/Settings-icon-symbol-vector.png">
+                        <p class="mp">Settings</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row d-flex mt-5">
+
+            <div class="col-4 ">
+                <div>
+                    <h6><b>Platform Settings</b></h6>
+                </div>
+                <div>
+                    <h6 style="font-size: 70%;">ACCOUNT</h6>
+                </div>
+
+                <div style="display: flex; flex-direction: column; gap: 20px;">
+                    <div>
+                        <div class="custom-control custom-switch">
+                            <input type="checkbox" class="custom-control-input" id="switch1">
+                            <label class="custom-control-label" for="switch1">Email me when someone follows
+                                me</label>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="custom-control custom-switch">
+                            <input type="checkbox" class="custom-control-input" id="switch2">
+                            <label class="custom-control-label" for="switch2">Email me when someone answers on
+                                my
+                                post</label>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="custom-control custom-switch">
+                            <input type="checkbox" class="custom-control-input" id="switch3">
+                            <label class="custom-control-label" for="switch3">Email me when someone mentions
+                                me</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-5">
+                    <h6 style="font-size: 70%;">APPLICATION</h6>
+                </div>
+
+                <div style="display: flex; flex-direction: column; gap: 20px;">
+                    <div>
+                        <div class="custom-control custom-switch">
+                            <input type="checkbox" class="custom-control-input" id="switch4">
+                            <label class="custom-control-label" for="switch4">New launches and projects</label>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="custom-control custom-switch">
+                            <input type="checkbox" class="custom-control-input" id="switch5">
+                            <label class="custom-control-label" for="switch5">Monthly product updates</label>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="custom-control custom-switch">
+                            <input type="checkbox" class="custom-control-input" id="switch6">
+                            <label class="custom-control-label" for="switch6">Subscribe to newsletter</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+
+                <div class="d-flex justify-content-between">
+
+                    <div>
+                        <h6><b>Profile Information</b></h6>
+                    </div>
+                    <div class="image">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDKiV6lD7QHHeiixNlrIjDViSlsBJjDeGacg&usqp=CAU"
+                            style="height: 20px; width: 20px;">
+                    </div>
+
+                </div>
+
+                <div>
+                    <p>Hi, I'm Alec Thompson, Decisions: If you can't decide, the answer is no. If two equally
+                        difficult
+                        paths, choose the one more painful in the short term (pain avoidance is creating an
+                        illusion
+                        of
+                        equality).</p>
+                </div>
+
+                <div>
+                    <h6 style="font-size: 90%;"><b>Full Name:</b> Alec M. Thompson</h6><br>
+                    <h6 style="font-size: 90%;"><b>Mobile:</b> (44) 123 1234 123</h6><br>
+                    <h5 style="font-size: 90%;"><b>Email:</b> alecthompson@mail.com</h5><br>
+                    <h5 style="font-size: 90%;"><b>Location:</b> USA</h5><br>
+                    <h5 style="font-size: 90%;"><b>Social:</b>
+                        <img src="https://cdn-icons-png.flaticon.com/128/145/145802.png" height="20px" width="20px">
+                        <img src="https://cdn-icons-png.flaticon.com/128/733/733579.png" height="20px" width="20px">
+                        <img src="https://cdn-icons-png.flaticon.com/128/1384/1384031.png" height="20px" width="20px">
+                    </h5>
+
+
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div style="margin-left: 5%;">
+                    <div>
+                        <h6><b>Conversations</b></h6>
+                    </div>
+                    <div class="row">
+
+                        <div class="col-2" style="display: flex; flex-direction: column; gap: 30px;">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8CldTqNpzN9ENCGC79zNXg6EfcqEHXTLjQg&usqp=CAU"
+                                style="height: 60px; width: 60px; border-radius: 10px;">
+
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuhEB5TN6Ku-wVjzZa_CiltogXAj4q_Cj30A&usqp=CAU"
+                                style="height: 60px; width: 60px; border-radius: 10px;">
+
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_lB0zHrt60hoQLrfN_6yRD38TDrxrhgsw1Q&usqp=CAU"
+                                style="height: 60px; width: 60px; border-radius: 10px;" />
+
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDr1i25jqVHRFv8eBDwljZqXTSBVO60GRsiQ&usqp=CAU"
+                                style="height: 60px; width: 60px; border-radius: 10px;" />
+
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2DFTdVusAp6tWt_JygsCjjrGxmX1DFBHtMQ5ExbzPlhCRP3ZGeRDIeoeK1euGqz4i04o&usqp=CAU"
+                                style="height: 60px; width: 60px; border-radius: 10px;" />
+                        </div>
+
+                        <div class="col-8" style=" margin-left: -5%;">
+                            <h6 style="margin-top: 3%;">Sophie B.</h6>
+                            <p class="p">Awesome work, can you..</p>
+
+                            <h6 class="h6">Anne Marie</h6>
+                            <p class="p">Hii! need more information..</p>
+
+                            <h6 class="h6">Ivanna</h6>
+                            <p class="p">About files I can..</p>
+
+                            <h6 class="h6">Peterson</h6>
+                            <p class="p">Have a greate afternoon..</p>
+
+                            <h6 class="h6">Nick Daniel</h6>
+                            <p class="p">Hii! I need more information..</p>
+                        </div>
+
+
+                        <div class="col-2" style="display: flex; flex-direction: column; gap: 16%;">
+                            <a class="a"
+                                href="https://stackoverflow.com/questions/54785097/reply-link-in-email-body">REPLY</a>
+
+                            <a class="a"
+                                href="https://stackoverflow.com/questions/54785097/reply-link-in-email-body">REPLY</a>
+
+                            <a class="a"
+                                href="https://stackoverflow.com/questions/54785097/reply-link-in-email-body">REPLY</a>
+
+                            <a class="a"
+                                href="https://stackoverflow.com/questions/54785097/reply-link-in-email-body">REPLY</a>
+
+                            <a class="a"
+                                href="https://stackoverflow.com/questions/54785097/reply-link-in-email-body">REPLY</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div style="margin-top: 6%;">
+            <div>
+                <h6><b>Projects</b></h6>
+                <p>Aechitects design houses</p>
+            </div>
+
+            <div class="row">
+
+                <div class="col-3">
+                    <img class="house" src="https://www.kindpng.com/picc/m/3-31238_house-png-transparent-png.png">
+
+                    <p class="view">Project#1</p>
+                    <h6><b>Modern</b></h6>
+                    <p>As User works through a huge amount of internal management turmoil.</p>
+
+                    <button type="button" class="btn btn-outline-danger">VIEW PROJECT</button>
+                </div>
+
+                <div class="col-3">
+                    <img class="house"
+                        src="https://www.nicepng.com/png/detail/14-142494_download-transparent-background-house-transparent.png">
+
+                    <p class="view">Project#2</p>
+                    <h6><b>Scandinavian</b></h6>
+                    <p>Music is something that every person has his or her own specific opinion.</p>
+
+                    <button type="button" class="btn btn-outline-danger">VIEW PROJECT</button>
+                </div>
+
+                <div class="col-3">
+                    <img class="house"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_AcmfghTw_83vH0iE_9vIyAZNvExioFTorA&usqp=CAU">
+
+                    <p class="view">Project#3</p>
+                    <h6><b>Minimalist</b></h6>
+                    <p>Different people have different taste, and various types of music.</p>
+
+                    <button type="button" class="btn btn-outline-danger">VIEW PROJECT</button>
+                </div>
+
+                <div class="col-3">
+                    <img class="house"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoz_5HDm5Raa-Imfc-OnNf-KXwzA2Ox3Zcp0nbFoEFtzCaY5mVg_V3Xpxc2ovY5FsmLOs&usqp=CAU">
+
+                    <p class="view">Project#4</p>
+                    <h6><b>Gothic</b></h6>
+                    <p>Why would anyone pick blue over pink? Pink is obviously a better color.</p>
+
+                    <button type="button" class="btn btn-outline-danger">VIEW PROJECT</button>
+                </div>
+
+            </div>   
+        </div>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
